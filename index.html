@@ -32,34 +32,74 @@
             </nav>
         </header>
         <!---Hero/jumbotron-->
-        <section>
+            <section class="hero">
+                <div class="hero-form">
+                    <h3>Get Started Today</h3>
+                    <p>Fill out this form and one of our trainers will schedule a consult</p>
+                <!---Add form elemtent--->
+                <form>
+                <label for="name">Enter full name:</label>
+                <input type="text" placeholder="Your Name" name ="name" id="name" class="form-input"/>
+                
+                <label for="email">Enter Email address:</label>
+                <input type="text" placeholder="Email Address" name="email" id="email" class="form-input"/>
+                
+                <label for="phone">Enter a telephone number:</label>
+                <input type="text" placeholder="Phone Number" name="phone" id="phone" class="form-input"/>
+                <p>
+                    Have you worked out with a trainer berfore?
+                    <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                    <label for="trainer-yes">Yes</label>
+                    <input type="radio" name="trainer-confirm" id="trainer-no" />
+                    <label for="trainer-no">No</label>
+                </p>
+                <p>
+                    <label for="checkbox">
+                        I acknowledge that I am at least 18 years of age.
+                    </label>
+                    <input type="checkbox" name="age-confirm" id="checkbox" />
+                    </p>
+                    <button type="submit">
+                        Get running!
+                    </button>
+                </form>
+                </div>
         </section>
         <!--"what we do"section-->
-        <section>
+        <section id="what-we-do">
             <h2>What we do</h2>
-        <div>
-            butcher selfies chambray shabby chich gentrufy readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade
-            Blue Bottle chilwave youy probrobly havent heard of them single-origin coffee Vice fanny pack fixie Odd Furutre Autstin
-            fingerstache pickled twee synth Wes Anderson Thundercats viral butters flannel meggings narwhal Marla Schlitz
-            sustainable Intelligentsia umami deep v craft
-        </div>
+            <p>
+                butcher selfies chambray shabby chich gentrufy readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade
+                Blue Bottle chilwave youy probrobly havent heard of them single-origin coffee Vice fanny pack fixie Odd Furutre Autstin
+                fingerstache pickled twee synth Wes Anderson Thundercats viral butters flannel meggings narwhal Marla Schlitz
+                sustainable Intelligentsia umami deep v craft
+            </p>
         </section>
         <!---what you do section-->
-        <section>
-        <h2>What You Do</h2>
-            <h2>Step 1: Fill Out the Form Above.</h2>
-            <!---Insert image here-->
-            <div>You're already here, so why not?</div>
-            <h2>Step 2: Consult with One of our Trainers.</h2>
-            <!---Insert image here-->
-            <div>Are you here to build muscle, lose weight, or just feel good?</div>
-            <h2>Step 3: Get Running</h2>
-            <!---Insert image here-->
-            <div>Hit the ground runnning (literally) once your trainer lays out your plan</div>
-            <h2>Step 4: See Results.</h2>
-            <!---Insert image here-->
-            <div>Bi-Weekly checkins with your trainer will keep you focused.</div>
+        <section id="what-you-do">
+
+            <h2>What You Do</h2>
+                <div>
+                    <img src="./assets/images/step-1.svg" alt="" />
+                    <h3>Step 1: Fill Out the Form Above.</h3>
+                    <p>You're already here, so why not?</p>
+                </div>
+                <div>
+                    <img src="./assets/images/step-2.svg" alt="" />
+                    <h3>Step 2: Consult with One of our Trainers.</h3>
+                    <p>Are you here to build muscle, lose weight, or just feel good?</p>
+                </div>
+                    <img src="./assets/images/step-3.svg" alt="" />
+                    <h3>Step 3: Get Running</h3>           
+                    <p>Hit the ground runnning (literally) once your trainer lays out your plan</p>
+                </div>
+                <div>
+                    <img src="./assets/images/step-4.svg" alt="" />
+                    <h3>Step 4: See Results.</h3>
+                    <p>Bi-Weekly checkins with your trainer will keep you focused.</p>
+                </div>
         </section>
+
             <br></br>
         <!---Meet the trainers section-->
         <section>
